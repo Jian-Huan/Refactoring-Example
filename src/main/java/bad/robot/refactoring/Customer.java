@@ -3,6 +3,10 @@ package main.java.bad.robot.refactoring;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The customer class represents the customer of the store.
+ * It has data and accessors.
+ */
 public class Customer {
 
     private String name;
@@ -61,3 +65,10 @@ public class Customer {
         return result;
     }
 }
+
+// A sample statement:
+// Rental Record for Jian-Huan
+//      Shawnshank redemption   5.0
+//      Star war    5.0
+// Amount owed is 10.0
+// You earned 10 frequent renter points.

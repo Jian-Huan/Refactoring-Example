@@ -3,6 +3,9 @@ package main.java.bad.robot.refactoring;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The rental class represents a customer renting a movie.
+ */
 public class Rental {
 
     private Movie movie;
