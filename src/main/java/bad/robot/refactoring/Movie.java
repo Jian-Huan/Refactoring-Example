@@ -31,6 +31,7 @@ public class Movie {
     }
 
     public double getCharge(int daysRented) {
+        System.out.println("Movie getCharge");
         double result = 0;
         switch (getPriceCode()) {
             case Movie.REGULAR:

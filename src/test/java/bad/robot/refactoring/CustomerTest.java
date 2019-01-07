@@ -1,8 +1,6 @@
 package test.java.bad.robot.refactoring;
 
-import main.java.bad.robot.refactoring.Customer;
-import main.java.bad.robot.refactoring.Movie;
-import main.java.bad.robot.refactoring.Rental;
+import main.java.bad.robot.refactoring.*;
 
 import org.junit.Test;
 
@@ -11,9 +9,9 @@ import static org.junit.Assert.assertThat;
 
 public class CustomerTest {
 
-    private static final Movie THE_HULK = new Movie("The Hulk", Movie.CHILDREN);
-    private static final Movie IRON_MAN = new Movie("Iron Man 4", Movie.NEW_RELEASE);
-    private static final Movie SPIDER_MAN = new Movie("Spiderman", Movie.REGULAR);
+    private static final Movie THE_HULK = new ChildrenMovie("The Hulk",Movie.CHILDREN);
+    private static final Movie IRON_MAN = new NewReleaseMovie("Iron Man 4",Movie.NEW_RELEASE);
+    private static final Movie SPIDER_MAN = new RegularMovie("Spiderman", Movie.REGULAR);
 
     private final Customer customer = new Customer("fred");
 
