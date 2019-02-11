@@ -5,19 +5,22 @@ package main.java.bad.robot.refactoring;
  */
 public class Movie {
 
-    // movie price code
+    // Movie price code
     public static final int CHILDREN = 2;
     public static final int REGULAR = 0;
     public static final int NEW_RELEASE = 1;
 
+    // Private fields
     private String title;
     private int priceCode;
 
+    // A class constructor
     public Movie(String title, int priceCode) {
         this.title = title;
         this.priceCode = priceCode;
     }
 
+    // Accessor methods
     public String getTitle() {
         return title;
     }
@@ -26,8 +29,8 @@ public class Movie {
         return priceCode;
     }
 
+    // Mutator methods
     public void setPriceCode(int priceCode) {
         this.priceCode = priceCode;
     }
-
 }
