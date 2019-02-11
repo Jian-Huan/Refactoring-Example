@@ -72,3 +72,46 @@ public class Customer {
 //      Star war    5.0
 // Amount owed is 10.0
 // You earned 10 frequent renter points.
+
+
+
+//public String htmlStatement() {
+//    double totalAmount = 0;
+//    int frequentRenterPoints = 0;
+//
+//    String result = "<h1>Rental record for <b>" + getName() + "</b></h1>\n";
+//    for (Rental each : rentals) {
+//        double thisAmount = 0;
+//        switch (each.getMovie().getPriceCode()) {
+//            case Movie.REGULAR:
+//                thisAmount += 2;
+//                if (each.getDaysRented() > 2)
+//                    thisAmount += (each.getDaysRented() - 2) * 1.5;
+//                break;
+//            case Movie.NEW_RELEASE:
+//                thisAmount += each.getDaysRented() * 3;
+//                break;
+//            case Movie.CHILDREN:
+//                thisAmount += 1.5;
+//                if (each.getDaysRented() > 3)
+//                    thisAmount += (each.getDaysRented() - 3) * 1.5;
+//                break;
+//        }
+//
+//        // add frequent renter points
+//        frequentRenterPoints++;
+//        // add bonus for a two day new release rental
+//        if (each.getMovie().getPriceCode() == Movie.NEW_RELEASE && each.getDaysRented() > 1)
+//            frequentRenterPoints++;
+//
+//        // show figures for this rental
+//        result += "<p>" + each.getMovie().getTitle() + "\t" + thisAmount + "</p>\n";
+//
+//        totalAmount += thisAmount;
+//    }
+//
+//    result += "<p>Amount owed is <b>" + totalAmount + "</b></p>\n";
+//    result += "<p>You earned <b>" + frequentRenterPoints + " frequent renter points</b></p>";
+//
+//    return result;
+//}
