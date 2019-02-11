@@ -10,7 +10,7 @@ import java.util.List;
 public class Customer {
 
     private String name;
-    private List<Rental> rentals = new ArrayList<Rental>();
+    private List<Rental> rentals = new ArrayList<>();
 
     public Customer(String name) {
         this.name = name;
@@ -59,8 +59,8 @@ public class Customer {
             totalAmount += thisAmount;
         }
 
-        result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
-        result += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
+        result += "Amount owed is " + totalAmount + "\n";
+        result += "You earned " + frequentRenterPoints + " frequent renter points";
 
         return result;
     }
