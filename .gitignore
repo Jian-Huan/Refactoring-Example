@@ -24,3 +24,5 @@ hs_err_pid*
 
 # Personal project specific settings of IntelliJ IDEA
 .idea/
+.DS_Store
+out/
