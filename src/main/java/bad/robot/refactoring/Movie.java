@@ -29,6 +29,8 @@ public class Movie {
         return priceCode;
     }
 
+    // TODO: Replacing the conditional logic on price code with Polymorphism when the story, adding more movie types,
+    // comes
     public double getCharge(int daysRented) {
         double result = 0;
         switch (getPriceCode()) {
