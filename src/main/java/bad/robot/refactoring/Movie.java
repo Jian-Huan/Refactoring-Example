@@ -5,7 +5,7 @@ package main.java.bad.robot.refactoring;
  */
 public class Movie {
 
-    // Movie price code
+    // Movie price code (based on movie type)
     public static final int CHILDREN = 2;
     public static final int REGULAR = 0;
     public static final int NEW_RELEASE = 1;
