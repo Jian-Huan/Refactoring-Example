@@ -71,7 +71,7 @@ public class Customer {
 //      Shawnshank redemption   5.0
 //      Star war    5.0
 // Amount owed is 10.0
-// You earned 10 frequent renter points.
+// You earned 2 frequent renter points.
 
 
 
