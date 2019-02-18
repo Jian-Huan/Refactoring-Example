@@ -1,8 +1,8 @@
-package test.java.bad.robot.refactoring;
+package test.java.movie.rental;
 
-import main.java.bad.robot.refactoring.Customer;
-import main.java.bad.robot.refactoring.Movie;
-import main.java.bad.robot.refactoring.Rental;
+import main.java.movie.rental.Customer;
+import main.java.movie.rental.Movie;
+import main.java.movie.rental.Rental;
 
 import org.junit.Test;
 

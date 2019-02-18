@@ -1,4 +1,4 @@
-package main.java.bad.robot.refactoring;
+package main.java.movie.rental;
 
 import java.util.ArrayList;
 import java.util.List;

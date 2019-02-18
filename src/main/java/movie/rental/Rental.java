@@ -1,4 +1,4 @@
-package main.java.bad.robot.refactoring;
+package main.java.movie.rental;
 
 /**
  * The rental class represents a customer renting a movie.

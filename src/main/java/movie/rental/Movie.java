@@ -1,4 +1,4 @@
-package main.java.bad.robot.refactoring;
+package main.java.movie.rental;
 
 /**
  * Movie is just a simple data class.
