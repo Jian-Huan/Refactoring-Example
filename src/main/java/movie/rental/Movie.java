@@ -5,7 +5,7 @@ package main.java.movie.rental;
  */
 public class Movie {
 
-    // Movie price code (based on movie type)
+    // Movie price codes (based on movie types)
     public static final int CHILDREN = 2;
     public static final int REGULAR = 0;
     public static final int NEW_RELEASE = 1;
